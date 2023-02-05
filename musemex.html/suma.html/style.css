@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+.bgimage{
+    background-image: url("mu1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.3);
+    background-position: center;
+    box-sizing: border-box;    
+
+}
+.leftmenu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+.leftmenu h2{
+    padding-left: 40px;
+    font-weight: bolder;
+    color: orange;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+}
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.rightmenu ul{
+margin-top: 15px;
+text-decoration: none;
+color: black;
+}
+.rightmenu ul li{
+    display: inline-block; 
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    line-height: 100px;
+    margin-left: 50px;
+}
+.rightmenu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.rightmenu ul li:hover{
+    color: orangered;
+}
+.text{
+    width: 100%;
+    margin-top: 250px;
+    text-transform: uppercase;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Rowdies', cursive;
+     font-size: 300%;
+}
+
+.text h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url("back1.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 20s linear infinite ;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+
+    }
+}
+.bgimage1{
+    background-image: url("bacbl.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 150vh;
+}
+.menu4{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.7);
+    background-position: center;
+    box-sizing: border-box;    
+
+}
+.PARA{
+    font-family: 'Rowdies', cursive;
+    font-size: 22px;
+    color: black;
+}
+    
+.text1 h1{
+    text-align: center;
+    font-weight: bolder;
+    color: orange;
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+}
+.leftmenu1 h1{
+    padding-left: 40px;
+    font-weight: bolder;
+    color: rgb(247, 29, 29);
+    font-size: 33px;
+    font-family: 'Rowdies', cursive;
+}   
+.leftmenu1{
+    text-align: center;
+}
+.bgimage2{
+    background-image: url("bacgr.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300vh;
+}
+.text2 h1{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+}
+.PARA1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    color: black;
+}
+.leftmenu2{
+    text-align: center;
+}
+.text3 h1{
+    text-align: center;
+    font-weight: bolder;
+    color: orange;
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+}
+.menu3{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.2);
+    background-position: center;
+    box-sizing: border-box;
+}   
+
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.img3{
+    cursor: pointer;
+    background-image: url("banr1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80vh;
+}
+.container0{
+    background-color: #f9f9f9;
+    padding-left: 1%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner img{
+    width: 100%;
+    padding-left: 2%;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+.main img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+}
+.main{
+    /* border: 1px solid red; */
+    display:grid;
+    /* width: 14em; */
+    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    /* grid-template-columns: auto; */
+    align-items: start;
+}
+.main img:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: all;
+    transition-duration: 1s;
+   
+}
+.card-img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.card-btn{
+    text-align: center;
+    position: relative;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100px;
+    
+   
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.5s;
+    border-radius: 5%;
+    background-color: rgb(245, 250, 250);
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+  }
+  
+  /* Add some padding inside the card container */
+  .card-content {
+    padding: 2px 16px;
+  }
+  .card-header{
+    font-family: 'Creepster', cursive;
+    font-size: 200%;
+    text-align: center;
+  }
+  .menu1{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    background-position: center;
+    box-sizing: border-box; 
+     
+
+}
